@@ -1,1 +1,1 @@
-# notion-pricing
+# Notion Pricing Project
