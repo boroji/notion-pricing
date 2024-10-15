@@ -1,3 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	line-height: normal;
+	color: var(--primary-5, #0e0d0b);
+}
+
 :root {
 	--primary-5: #0e0d0b;
 	--primary-94: #f1f0ee;
@@ -7,4 +21,31 @@
 	--tertiary-40: #0a85d1;
 	--grey-100: #ffffff;
 	--shadow-1: 0px 4px 4px #000000;
+}
+
+.link {
+	display: inline-flex;
+	padding: 8px 12px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+
+	font-size: 12px;
+
+	font-weight: 400;
+}
+
+.link-black {
+	background: var(--primary-5, #0e0d0b);
+	color: var(--grey-100, #fff);
+}
+
+.link-white {
+	background: var(--grey-100, #fff);
+	color: var(--primary-5, #0e0d0b);
+}
+
+.link-off-white {
+	background: var(--primary-94, #f1f0ee);
+	color: var(--primary-5, #0e0d0b);
 }
