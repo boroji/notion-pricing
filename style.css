@@ -23,15 +23,20 @@ body {
 	--shadow-1: 0px 4px 4px #000000;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
 .link {
 	display: inline-flex;
 	padding: 8px 12px;
 	justify-content: center;
 	align-items: center;
 	border-radius: 4px;
-
 	font-size: 12px;
-
 	font-weight: 400;
 }
 
