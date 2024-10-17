@@ -54,3 +54,33 @@ a:active {
 	background: var(--primary-94, #f1f0ee);
 	color: var(--primary-5, #0e0d0b);
 }
+
+/* -----Nav----- */
+nav {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-logo-left,
+.nav-left,
+.nav-right {
+	display: flex;
+	align-items: center;
+}
+
+.nav-right,
+.nav-left {
+	gap: 8px;
+}
+
+.nav-logo-left {
+	gap: 16px;
+
+	img {
+		width: 105px;
+		height: 30px;
+	}
+}
