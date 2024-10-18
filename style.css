@@ -57,6 +57,27 @@ a:active {
 	color: var(--primary-5, #0e0d0b);
 }
 
+/* -----Chip----- */
+.chip {
+	display: inline-flex;
+	padding: 4px 12px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 500px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.chip-purple {
+	background: var(--secondary-94, #f0e1f9);
+	color: var(--secondary-50, #9d34da);
+}
+
+.chip-blue {
+	background: var(--tertiary-40, #0a85d1);
+	color: var(--grey-100, #fff);
+}
+
 /* -----Nav----- */
 nav {
 	display: flex;
@@ -64,6 +85,7 @@ nav {
 	padding: 10px;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 48px;
 }
 
 .nav-logo-left,
@@ -84,5 +106,22 @@ nav {
 	img {
 		width: 105px;
 		height: 30px;
+	}
+}
+
+/* -----hero------ */
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+
+	h1 {
+		color: var(--primary-5, #0e0d0b);
+		text-align: center;
+		font-size: 61px;
+		font-weight: 800;
+		line-height: 64px;
+		letter-spacing: -0.5px;
 	}
 }
