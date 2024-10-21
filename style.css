@@ -12,6 +12,12 @@ body {
 	color: var(--primary-5, #0e0d0b);
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+
 :root {
 	--primary-5: #0e0d0b;
 	--primary-94: #f1f0ee;
@@ -85,7 +91,6 @@ nav {
 	padding: 10px;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 48px;
 }
 
 .nav-logo-left,
@@ -123,5 +128,24 @@ nav {
 		font-weight: 800;
 		line-height: 64px;
 		letter-spacing: -0.5px;
+	}
+}
+
+/* -----testimonials------ */
+
+.testimonials {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	div {
+		display: flex;
+		width: 621px;
+		justify-content: space-between;
+		align-items: center;
+		img {
+			width: auto;
+			height: 18px;
+		}
 	}
 }
