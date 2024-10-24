@@ -63,14 +63,20 @@ a:active {
 	color: var(--primary-5, #0e0d0b);
 }
 
-/* -----Chip----- */
-.chip {
+/* -----Chip & Toggle----- */
+.chip,
+.toggle {
 	display: inline-flex;
 	padding: 4px 12px;
 	justify-content: center;
 	align-items: center;
 	border-radius: 500px;
 	font-size: 14px;
+}
+
+.chip-purple,
+.chip-blue,
+.toggle-active {
 	font-weight: 600;
 }
 
@@ -82,6 +88,16 @@ a:active {
 .chip-blue {
 	background: var(--tertiary-40, #0a85d1);
 	color: var(--grey-100, #fff);
+}
+
+.toggle-active {
+	background: var(--grey-100, #fff);
+	color: var(--primary-5, #0e0d0b);
+}
+
+.toggle-inactive {
+	color: var(--primary-75, #c6bfb9);
+	font-weight: 400;
 }
 
 /* -----Nav----- */
@@ -131,13 +147,17 @@ nav {
 	}
 }
 
-/* -----testimonials------ */
+/* -----Testimonials & Toggle Pricing------ */
 
-.testimonials {
+.testimonials,
+.toggle-pricing {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+}
+
+.testimonials {
 	div {
 		display: flex;
 		width: 621px;
@@ -148,4 +168,14 @@ nav {
 			height: 18px;
 		}
 	}
+}
+
+.toggle-pricing .blue-highlight {
+	color: var(--tertiary-40, #0a85d1);
+}
+
+.toggle-wrapper {
+	border-radius: 500px;
+	background: var(--primary-94, #f1f0ee);
+	padding: 8px;
 }
