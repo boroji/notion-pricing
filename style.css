@@ -179,3 +179,57 @@ nav {
 	background: var(--primary-94, #f1f0ee);
 	padding: 8px;
 }
+
+/* Card */
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	gap: 24px;
+	padding: 0px 96px;
+	justify-content: center;
+}
+
+.card {
+	display: flex;
+	padding: 24px;
+	flex-direction: column;
+	gap: 16px;
+	border-radius: 12px;
+	background: var(--primary-94, #f1f0ee);
+	.link {
+		width: 100%;
+	}
+	ul {
+		padding-left: 16px;
+	}
+}
+
+.card-top {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	p {
+		color: var(--primary-5, #0e0d0b);
+		font-weight: 700;
+	}
+
+	img {
+		width: auto;
+		height: 40px;
+	}
+}
+
+.card-plan {
+	font-size: 14px;
+}
+
+.card-price {
+	font-size: 32px;
+}
+
+.card-bullet {
+	color: var(--primary-5, #0e0d0b);
+	font-weight: 400;
+	line-height: 22px;
+}
