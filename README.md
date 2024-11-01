@@ -1,6 +1,6 @@
 # Notion Website
 
-## [YouTube Tutorial](https://youtu.be/45IB2ZySTPc)
+#### [Watch YouTube Tutorial](https://youtu.be/45IB2ZySTPc)
 
 - Step 1 - Figma website project introduction
 - Step 2 - Create Figma color styles using layer naming convention and automation
@@ -19,4 +19,4 @@
 - Step 15 - Figma toggle component to HTML CSS
 - Step 16 - Figma card component to responsive HTML CSS webiste
 
-## [Figma Community File](https://www.figma.com/community/file/1418304726481437667)
+#### [Downlaod Figma Community File](https://www.figma.com/community/file/1418304726481437667)
